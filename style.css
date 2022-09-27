@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(15, 137, 141, 0.75), rgba(0, 0, 0, 0));
+    width: 40%;
+}
+
+button{
+    background: #1de9b6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    color: cadetblue;
+    margin: 0;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-family: roboto;
+    font-size: 15px;
+}
+
+strong{
+    line-height: 50px;
+}
+
+.about, .edu, .ex, .skill{
+    width: 80%;
+    padding: 0 50px;
+    text-align: center;
+    color: #707070;
+    display: grid;
+}
+
+.about{
+    display: flex;
+    margin: 10px;
+}
+
+.left{
+    padding: 10px;
+}
+.right{
+    padding: 10px;
+}
