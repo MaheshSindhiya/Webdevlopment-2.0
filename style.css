@@ -44,9 +44,10 @@ strong{
     line-height: 50px;
 }
 
-.about, .edu, .ex, .skill{
+.about, .edu, .ex, .skill, .hobbies,
+.achievements, .contact{
     padding: 0 50px;
-    text-align: center;
+    text-align: justify;
     color: #707070;
     display: grid;
 }
